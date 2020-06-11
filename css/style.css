@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+}
+
+.test-task {
+    max-width: 90%;
+}
+
+.change-button {
+    width: 10%;
+}
+
+.strike {
+    text-decoration: line-through;
+    justify-content: space-between;
+}
+
+.fa-check-circle:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.fa-pencil-alt:hover {
+    color: rgb(214, 214, 111);
+    cursor: pointer;
+}
+
+.fa-trash:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-save:hover {
+    cursor: pointer;
+    color: royalblue;
+}
+
+.getHex {
+    position: absolute;
+    width: 200px;
+}
